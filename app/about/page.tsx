@@ -37,10 +37,16 @@ export default function About() {
           </p>
           <a href="/contact"><button className="bt text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
             Contact Us
-          </button></a>
+        </button></a>
+        <a href="https://beacons.ai/uoftesports"><button className="ml-4 bt text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
+            Our Beacons.AI Links
+        </button></a>
+        <a href="https://discord.gg/4BWNeTddXy"><button className="ml-4 bt text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
+            Join our Discord Server!
+        </button></a>
       </MaxWidthWrapper>
 
-      <MaxWidthWrapper className="pt-20">
+      <MaxWidthWrapper className="pt-20 pb-10">
         <h1 className="font-bold text-6xl mb-5 text-primary">What We Do</h1>
         <h1 className="text-2xl font-medium text-secondary">Events</h1>
         <p className="text-xl py-5">
