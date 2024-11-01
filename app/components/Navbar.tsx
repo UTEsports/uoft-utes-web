@@ -17,7 +17,7 @@ const Navbar = () => {
                 <div className='flex h-full items-center justify-between py-6'>
                     <Link href={"/"}><Image src={Logo} alt='UTES logo' height={80} width={80} quality={100} className='duration-300 hover:scale-105 active:scale-95'/></Link>
                     {/* non mobile nav */}
-                    <div className='hidden md:flex space-x-12 font-bold text-2xl uppercase text-primary tracking-widest'>
+                    <div className='hidden md:flex lg:space-x-10 space-x-6 font-bold lg:text-2xl text-lg uppercase text-primary tracking-widest'>
                         <Link href={"/about"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             about
                         </Link>
@@ -29,6 +29,9 @@ const Navbar = () => {
                         </Link>
                         <Link href={"/contact"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             contact
+                        </Link>
+                        <Link href={"/sponsors"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
+                            sponsors
                         </Link>
                     </div>
 
@@ -60,6 +63,9 @@ const Navbar = () => {
                         </Link>
                         <Link href={"/contact"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             contact
+                        </Link>
+                        <Link href={"/sponsors"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
+                            sponsors
                         </Link>
                     </div>
                 }
