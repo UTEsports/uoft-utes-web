@@ -35,7 +35,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="w-full max-w-sm p-6 rounded-lg z-100">
+    <form onSubmit={handleSubmit} className="w-full p-6 rounded-lg z-100">
       <div className="mb-4">
         <input
           type="text"

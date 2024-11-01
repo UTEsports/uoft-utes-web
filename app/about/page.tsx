@@ -12,7 +12,7 @@ export default function About() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl z-10">
+          <h1 className="text-9xl max-sm:text-7xl font-bold text-white drop-shadow-2xl z-10">
             ABOUT
           </h1>
         </div>

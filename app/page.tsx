@@ -23,7 +23,7 @@ export default function Home() {
         <Image src={Backdrop} alt='hero banner' className='w-full h-full object-cover' quality={100} loading='lazy' />
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <h1 className="text-8xl max-sm:text-6xl font-bold text-white drop-shadow-2xl">
+          <h1 className="text-8xl max-sm:text-6xl font-bold text-white drop-shadow-2xl max-sm:text-center">
             UTES HOME
           </h1>
         </div>
@@ -32,10 +32,10 @@ export default function Home() {
       <MaxWidthWrapper>
         {/* Hero section */}
           <h3 className='mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold'>Welcome to UofT Esports!</h3>
-          <p className='text-xl py-5'>UTES is a non-profit student group that is the hub for all Esports and gaming communities & activities at the University of Toronto. We aim to unite students by a common love of gaming through community events & discussions on and offline. We encourage you to come out and meet new people!</p>
+          <p className='text-xl py-5 max-sm:text-center'>UTES is a non-profit student group that is the hub for all Esports and gaming communities & activities at the University of Toronto. We aim to unite students by a common love of gaming through community events & discussions on and offline. We encourage you to come out and meet new people!</p>
           <div className='gap-x-5 flex flex-row'>
-            <a className='text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server</a>
-            <a className='text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href=" https://beacons.ai/uoftesports">Check out our Links</a>
+            <a className='max-sm:text-center text-white bg-cyan-500 rounded-full px-12 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server</a>
+            <a className='max-sm:text-center text-white bg-cyan-500 rounded-full px-12 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600' href=" https://beacons.ai/uoftesports">Check out our Links</a>
           </div>
       </MaxWidthWrapper>
 
