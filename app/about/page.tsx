@@ -52,17 +52,17 @@ export default function About() {
       </MaxWidthWrapper>
 
       <MaxWidthWrapper>
-        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
+        <h1 className="mb-5 mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
           What We Do
         </h1>
         <h1 className="text-2xl font-medium text-secondary">Events</h1>
-        <p className="text-xl max-sm:text-base py-5 max-sm:text-center">
+        <p className="text-xl max-sm:text-base mb-7 mt-2">
           We run many events year-long, including in-houses, small tournaments,
           LAN events, watch parties, intramural, irl meetups and more. Join our
           Discord for more information!
         </p>
         <h1 className="text-2xl font-medium text-secondary">Broadcast</h1>
-        <p className="text-xl max-sm:text-base py-5 max-sm:text-center">
+        <p className="text-xl max-sm:text-base mb-7 mt-2">
           We have developed our own broadcast unit at UofT Esports (UTES),
           consisting of many students and volunteers from the esports community
           interested in esports production. Broadcast at UTES gives many the
@@ -70,7 +70,7 @@ export default function About() {
           hands-on experience.
         </p>
         <h1 className="text-2xl font-medium text-secondary">Collegiate</h1>
-        <p className="text-xl py-5">
+        <p className="text-xl max-sm:text-base mb-7 mt-2">
           UofT is home to many of the top esports players in our game titles
           (Overwatch 2, Valorant, League of Legends, Counter-Strike 2). We offer
           Varsity teams that represent the school competing year-long in various
