@@ -52,7 +52,7 @@ export default function Sponsors() {
                     <a href="https://bmo.gg"><button className="bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 z-10">
                         Visit BMONXTLVL
                     </button></a>
-                    <p className="pt-5"> BMONXTLVL streams every Thursdays @ 7pm at <a href="https://twitch.tv/bmo_nxtlvl" className="font-semibold text-cyan-200">twitch.tv/bmo_nxtlvl</a>. Each stream features gaming and financial literacy tips with BMO's Gaming Relations Specialist. Join <a href="https://discord.gg/bmonxtlvl" className="font-semibold text-cyan-200">discord.gg/bmonxtlvl</a> to get access to exclusive content.</p>
+                    <p className="pt-5"> BMONXTLVL streams every Thursdays @ 7pm at <a href="https://twitch.tv/bmo_nxtlvl" className="font-semibold text-cyan-200">twitch.tv/bmo_nxtlvl</a>. Each stream features gaming and financial literacy tips with BMO`&apos;`s Gaming Relations Specialist. Join <a href="https://discord.gg/bmonxtlvl" className="font-semibold text-cyan-200">discord.gg/bmonxtlvl</a> to get access to exclusive content.</p>
                 </BoxWrapper>
             </MaxWidthWrapper>
             
@@ -65,7 +65,7 @@ export default function Sponsors() {
                         Levelup VR Arcade Toronto
                     </button></a>
                     <div className="text-center pt-4 w-1/2 self-center ">
-                        Levelup Reality VR Arcade is Toronto's top spot for immersive virtual reality, perfect for student groups seeking a fun and unique experience. From social events to team-building, we offer a wide range of VR games that engage all interests. Connect, compete, and create unforgettable memories at Levelup Reality.
+                        Levelup Reality VR Arcade is Toronto`&apos;`s top spot for immersive virtual reality, perfect for student groups seeking a fun and unique experience. From social events to team-building, we offer a wide range of VR games that engage all interests. Connect, compete, and create unforgettable memories at Levelup Reality.
                     </div>
                 </div>
                 </div>
