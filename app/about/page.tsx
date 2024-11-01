@@ -47,14 +47,21 @@ export default function About() {
         >
           <button className="text-center text-white bg-cyan-500 rounded-full px-12 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600">
             Contact Us
-          </button>
-        </a>
+
+        </button></a>
+        <a href="https://beacons.ai/uoftesports"><button className="ml-4 bt text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
+            Our Beacons.AI Links
+        </button></a>
+        <a href="https://discord.gg/4BWNeTddXy"><button className="ml-4 bt text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
+            Join our Discord Server!
+        </button></a>
       </MaxWidthWrapper>
 
       <MaxWidthWrapper>
         <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
           What We Do
         </h1>
+
         <h1 className="text-2xl font-medium text-secondary">Events</h1>
         <p className="text-xl max-sm:text-base mb-7 mt-2">
           We run many events year-long, including in-houses, small tournaments,

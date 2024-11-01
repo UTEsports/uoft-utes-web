@@ -27,6 +27,7 @@ export default function Overwatch2() {
         />
       </div>
 
+
       <MaxWidthWrapper>
         <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
           Esports Executives
@@ -80,6 +81,39 @@ export default function Overwatch2() {
             name="Christina R."
             role="Graphic Designer"
           />
+
+        </div>
+      </MaxWidthWrapper>
+      <MaxWidthWrapper className="py-10">
+        <h1 className="font-bold text-6xl pb-6 text-primary">Game Heads</h1>
+        <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
+           <PlayerCard
+              alias="kaprixal"
+              name="Kirsten S."
+              role="Overwatch 2 Game Head"
+              twitter="kaprixal"
+            />
+            <PlayerCard
+              alias="nourmohy"
+              name="Nour E."
+              role="Valorant Game Head"
+              instagram="nour_elbardissi"
+              twitch="nourmohy"
+              twitter="nelbardissi"
+            />
+            <PlayerCard
+              alias="juicetin"
+              name="Justin K."
+              role="Counter-Strike 2 Game Head"
+            />
+            <PlayerCard
+              alias="honeymin"
+              name="Kae P."
+              role="League of Legends Game Head"
+              instagram="kaepurcea"
+            />
+          </div>
         </div>
       </MaxWidthWrapper>
     </main>

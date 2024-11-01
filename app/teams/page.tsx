@@ -16,7 +16,9 @@ export default function Teams() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
+
           <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center">
+
             TEAMS
           </h1>
         </div>

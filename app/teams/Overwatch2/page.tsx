@@ -83,6 +83,7 @@ export default function Overwatch2() {
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper className="py-20">
+
         <h1 className="font-bold text-5xl pb-6 text-primary max-md:text-center">
           ACADEMY
         </h1>
@@ -114,6 +115,7 @@ export default function Overwatch2() {
           />
           <PlayerCard alias="DjAshTray " name="Ashvin S." role="Damage" />
           <PlayerCard alias="WarHaterSam " name="Sam J." role="Support" />
+
         </div>
       </MaxWidthWrapper>
     </main>

@@ -25,9 +25,11 @@ const PlayerCard: React.FC<PlayerCardProps> = ({
   twitter,
 }) => {
   return (
+
     <div className='flex flex-row w-3/4 sm:w-2/5 md:w-[30%] lg:w-[31%] h-40 px-5 py-3 space-x-2 bg-secondary rounded-xl cyan_shadow text-white'>
       <Image src={UTESLogo} alt='UTES Crest' className='w-1/3 aspect-square mr-2' />
       <div className="flex items-start justify-center flex-col">
+
         <p className="font-light text-xs">{role}</p>
         <h1 className="font-regular">{name}</h1>
         <p className="font-light text-xs pb-3">
