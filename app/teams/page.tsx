@@ -35,7 +35,7 @@ export default function Teams() {
 
       <section>
         <MaxWidthWrapper>
-          <h1 className="max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12">
+          <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
             Meet the teams
           </h1>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">

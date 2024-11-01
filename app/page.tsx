@@ -35,7 +35,7 @@ export default function Home() {
 
       <MaxWidthWrapper>
         {/* Hero section */}
-        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           Welcome to UofT Esports!
         </h1>
         <p className="text-xl max-sm:text-base py-5 max-sm:text-center">
@@ -65,7 +65,7 @@ export default function Home() {
 
       <section>
         <MaxWidthWrapper>
-          <h1 className="mb-5 mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
+          <h1 className="mt-20 mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
             Meet the teams
           </h1>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">
@@ -88,7 +88,7 @@ export default function Home() {
       {/* Contact section */}
       <section>
         <MaxWidthWrapper>
-          <h1 className="mb-5 mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
+          <h1 className="mt-20 mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
             Join our community
           </h1>
           <div className="flex justify-center md:justify-between items-center flex-wrap gap-5 mr-3">

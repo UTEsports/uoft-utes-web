@@ -29,7 +29,7 @@ export default function About() {
 
       <MaxWidthWrapper>
         {/* Hero section */}
-        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           About UofT Esports (UTES)
         </h1>
         <p className="text-xl max-sm:text-base py-5 max-sm:text-center">
@@ -52,7 +52,7 @@ export default function About() {
       </MaxWidthWrapper>
 
       <MaxWidthWrapper>
-        <h1 className="mb-5 mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
           What We Do
         </h1>
         <h1 className="text-2xl font-medium text-secondary">Events</h1>

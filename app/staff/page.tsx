@@ -27,8 +27,8 @@ export default function Overwatch2() {
         />
       </div>
 
-      <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">
+      <MaxWidthWrapper>
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
           Esports Executives
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
@@ -51,8 +51,8 @@ export default function Overwatch2() {
           <PlayerCard alias="fairyy" name="Ariana D." role="Treasurer" />
         </div>
       </MaxWidthWrapper>
-      <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">
+      <MaxWidthWrapper>
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
           Media Team
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">

@@ -33,9 +33,9 @@ export default function Contact() {
       <section>
         <MaxWidthWrapper>
           <div>
-            <h3 className="mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold">
+            <h1 className="mt-20 max-sm:text-3xl max-lg:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
               Send us a message
-            </h3>
+            </h1>
             <div className="flex justify-center items-center flex-row gap-6">
               <Image
                 src={ContactUs}
@@ -52,9 +52,9 @@ export default function Contact() {
       </section>
       <section>
         <MaxWidthWrapper>
-          <h3 className="mt-12 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold mb-12">
+          <h1 className="mt-20 max-sm:text-3xl max-lg:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
             Join our community
-          </h3>
+          </h1>
           <div className="flex justify-center md:justify-between items-center flex-wrap gap-5 mr-3">
             <Link
               target="_blank"
