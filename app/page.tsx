@@ -45,15 +45,15 @@ export default function Home() {
           & discussions on and offline. We encourage you to come out and meet
           new people!
         </p>
-        <div className="gap-x-3 flex flex-row max-sm:justify-center max-sm:items-center">
+        <div className="gap-x-3 flex flex-row max-sm:justify-center text-center max-sm:flex-col max-sm:gap-3">
           <a
-            className="text-center text-white bg-cyan-500 rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600"
+            className="flex justify-center items-center text-center text-white bg-cyan-500 rounded-full px-10 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600"
             href="https://discord.gg/EyjrqZyjh8"
           >
             Join our Discord Server
           </a>
           <a
-            className="text-center text-white bg-cyan-500 rounded-full px-12 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600"
+            className="flex justify-center items-center text-center text-white bg-cyan-500 rounded-full px-12 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600"
             href=" https://beacons.ai/uoftesports"
           >
             Check out our Links
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* Contact section */}
-      <section>
+      <section className="mb-20">
         <MaxWidthWrapper>
           <h1 className="mt-20 mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
             Join our community

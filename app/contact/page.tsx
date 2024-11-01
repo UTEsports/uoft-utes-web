@@ -50,7 +50,7 @@ export default function Contact() {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section>
+      <section className="mb-20">
         <MaxWidthWrapper>
           <h1 className="mt-20 max-sm:text-3xl max-lg:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
             Join our community
