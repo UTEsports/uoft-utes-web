@@ -56,8 +56,8 @@ export default function Sponsors() {
                 </BoxWrapper>
             </MaxWidthWrapper>
             
-            <h1 className="max-sm:text-2xl text-center uppercase text-primary text-3xl font-bold mb-12 px-7 pt-20">Co-Sponsors</h1>
-            <MaxWidthWrapper>
+            <h1 className="max-sm:text-2xl text-center uppercase text-primary text-3xl font-bold px-7 pt-20">Co-Sponsors</h1>
+            <MaxWidthWrapper className="mb-10">
                 <div className="flex flex-row self-center">
                     <div className="flex flex-col text-center">
                     <Image src={LU} alt="BMO NXT LVL logo" className="self-center w-1/2 -mb-7" />
