@@ -17,7 +17,9 @@ const Navbar = () => {
                 <div className='flex h-full items-center justify-between py-6'>
                     <Link href={"/"} className='flex flex-row duration-300 hover:scale-105 active:scale-95'><Image src={Logo} alt='UTES logo' height={80} width={80} quality={100}/> <h1 className='w-60 flex-wrap pt-4 pl-5 text-primary'>University of Toronto Esports</h1> </Link>
                     {/* non mobile nav */}
+
                     <div className='hidden md:flex lg:space-x-10 space-x-6 font-bold lg:text-2xl text-lg uppercase text-primary tracking-widest'>
+
                         <Link href={"/about"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             about
                         </Link>
