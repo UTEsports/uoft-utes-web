@@ -23,31 +23,38 @@ export default function Contact() {
         />
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <h1 className="text-9xl max-sm:text-6xl font-bold text-white drop-shadow-2xl max-md:text-8xl">
+          <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center">
             CONTACT
           </h1>
         </div>
       </div>
 
       {/* Contact section */}
-      <section className="py-20">
+      <section className="py-10">
         <MaxWidthWrapper>
           <div>
-            <h1 className="max-sm:text-4xl text-center uppercase text-primary text-6xl font-bold mb-12 px-7">
+            <h3 className="mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold">
               Send us a message
-            </h1>
+            </h3>
             <div className="flex justify-center items-center flex-row gap-6">
-              <Image src={ContactUs} alt="Kiriko" height={300} width={300} quality={100} className="-mt-30 max-sm:hidden"></Image>
+              <Image
+                src={ContactUs}
+                alt="Kiriko"
+                height={300}
+                width={300}
+                quality={100}
+                className="-mt-30 max-sm:hidden"
+              ></Image>
               <ContactForm />
             </div>
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="py-20">
+      <section className="py-10">
         <MaxWidthWrapper>
-          <h1 className="max-sm:text-4xl text-center uppercase text-primary text-6xl font-bold mb-12">
+          <h3 className="mt-12 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold mb-12">
             Join our community
-          </h1>
+          </h3>
           <div className="flex justify-center md:justify-between items-center flex-wrap gap-5 mr-3">
             <Link
               target="_blank"

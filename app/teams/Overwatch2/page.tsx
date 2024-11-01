@@ -33,7 +33,7 @@ export default function Overwatch2() {
         <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">
           VARSITY
         </h1>
-        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-between items-stretch max-md:justify-center">
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
           <PlayerCard
             alias="Phant0mz"
             name="Lucas C."
@@ -86,7 +86,7 @@ export default function Overwatch2() {
         <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">
           ACADEMY
         </h1>
-        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-between items-stretch max-md:justify-center">
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
           <PlayerCard alias="Chiori" name="Ryan L." role="Tank" />
           <PlayerCard
             alias="computerow "

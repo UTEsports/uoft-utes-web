@@ -33,7 +33,7 @@ export default function Valorant() {
         <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">
           VARSITY
         </h1>
-        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-between items-stretch max-md:justify-center">
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
           <PlayerCard alias="KEVN" name="Kevin K." role="Sentinel" />
           <PlayerCard alias="Hypecks" name="Merwin T." role="Initiator" />
           <PlayerCard alias="jacky" name="Jacky C." role="Controller" />
