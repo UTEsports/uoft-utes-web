@@ -35,24 +35,30 @@ export default function Sponsors() {
             <MaxWidthWrapper>
                 <BoxWrapper className="mt-20 text-center z-10">
                     <h1 className="text-5xl">Our Title Sponsor:</h1>
-                    <div className="flex flex-row justify-evenly">
+                    <div className="flex flex-wrap sm:flex-nowrap flex-col sm:flex-row justify-evenly">
                         <Image
-                src={BMO}
-                alt="hero banner"
-                className="w-1/4 h-full object-cover"
-                quality={100}
-                loading="lazy"
-                    />
-                    <Image src={BMONL} alt="BMO NXT LVL logo" className="-ml-40 w-1/2 h-1/6" />
+                            src={BMO}
+                            alt="hero banner"
+                            className="w-full sm:w-1/4 h-full"
+                            quality={100}
+                            loading="lazy"
+                        />
+                        <Image
+                            src={BMONL}
+                            alt="BMO NXT LVL logo"
+                            className="w-full sm:w-1/3 h-1/6 mt-5 sm:mt-5"
+                        />
                     </div>
-                    
-                    <a href="https://www.bmo.com/en-ca/main/personal/"><button className="bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 mr-4 z-10">
+                    <div className="flex flex-wrap justify-evenly">
+<a href="https://www.bmo.com/en-ca/main/personal/"><button className="mb-5 bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 z-10">
                         Visit BMO
                     </button></a>
-                    <a href="https://bmo.gg"><button className="bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 z-10">
+                    <a href="https://bmo.gg"><button className="mb-5 bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 z-10">
                         Visit BMONXTLVL
                     </button></a>
-                    <p className="pt-5"> BMONXTLVL streams every Thursdays @ 7pm at <a href="https://twitch.tv/bmo_nxtlvl" className="font-semibold text-cyan-200">twitch.tv/bmo_nxtlvl</a>. Each stream features gaming and financial literacy tips with BMO`&apos;`s Gaming Relations Specialist. Join <a href="https://discord.gg/bmonxtlvl" className="font-semibold text-cyan-200">discord.gg/bmonxtlvl</a> to get access to exclusive content.</p>
+                    </div>
+                    
+                    <p className="pt-5"> BMONXTLVL streams every Thursdays @ 7pm at <a href="https://twitch.tv/bmo_nxtlvl" className="font-semibold text-cyan-200">twitch.tv/bmo_nxtlvl</a>. Each stream features gaming and financial literacy tips with BMO&apos;s Gaming Relations Specialist. Join <a href="https://discord.gg/bmonxtlvl" className="font-semibold text-cyan-200">discord.gg/bmonxtlvl</a> to get access to exclusive content.</p>
                 </BoxWrapper>
             </MaxWidthWrapper>
             
@@ -60,12 +66,12 @@ export default function Sponsors() {
             <MaxWidthWrapper className="mb-10">
                 <div className="flex flex-row self-center">
                     <div className="flex flex-col text-center">
-                    <Image src={LU} alt="BMO NXT LVL logo" className="self-center w-1/2 -mb-7" />
-                    <a href="https://www.levelupreality.ca/"><button className=" -mt-10 text-white bg-cyan-500 rounded-full px-12 py-3 text-lg font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 z-10">
+                    <Image src={LU} alt="BMO NXT LVL logo" className="self-center w-1/2 mb-5 md:-mb-7" />
+                    <a href="https://www.levelupreality.ca/"><button className="mb-5 -mt-10 text-white bg-cyan-500 rounded-full px-12 py-3 text-lg font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600 z-10">
                         Levelup VR Arcade Toronto
                     </button></a>
                     <div className="text-center pt-4 w-1/2 self-center ">
-                        Levelup Reality VR Arcade is Toronto`&apos;`s top spot for immersive virtual reality, perfect for student groups seeking a fun and unique experience. From social events to team-building, we offer a wide range of VR games that engage all interests. Connect, compete, and create unforgettable memories at Levelup Reality.
+                        Levelup Reality VR Arcade is Toronto&apos;s top spot for immersive virtual reality, perfect for student groups seeking a fun and unique experience. From social events to team-building, we offer a wide range of VR games that engage all interests. Connect, compete, and create unforgettable memories at Levelup Reality.
                     </div>
                 </div>
                 </div>
