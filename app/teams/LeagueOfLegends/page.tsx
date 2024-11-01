@@ -12,7 +12,7 @@ export default function LeagueOfLegends() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl">
+          <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center px-9">
             League of Legends
           </h1>
         </div>
@@ -32,8 +32,7 @@ export default function LeagueOfLegends() {
       <MaxWidthWrapper className="py-20">
         <h1 className="font-bold text-6xl pb-6 text-primary">Coming Soon...</h1>
         <div className="flex flex-row justify-between items-center">
-          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
-          </div>
+          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch"></div>
         </div>
       </MaxWidthWrapper>
     </main>
