@@ -27,7 +27,7 @@ export default function Overwatch2() {
         />
       </div>
 
-      <MaxWidthWrapper className="py-20">
+      <MaxWidthWrapper className="py-10">
         <h1 className="font-bold text-6xl pb-6 text-primary">Esports Executives</h1>
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
@@ -35,6 +35,7 @@ export default function Overwatch2() {
               alias="kaprixal"
               name="Kirsten S."
               role="President"
+              twitter="kaprixal"
             />
             <PlayerCard
               alias="JaidynPurple"
@@ -59,7 +60,7 @@ export default function Overwatch2() {
           </div>
         </div>
       </MaxWidthWrapper>
-      <MaxWidthWrapper className="py-20">
+      <MaxWidthWrapper className="py-10">
         <h1 className="font-bold text-6xl pb-6 text-primary">Media Team</h1>
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
@@ -90,6 +91,38 @@ export default function Overwatch2() {
               alias="yvrini"
               name="Christina R."
               role="Graphic Designer"
+            />
+          </div>
+        </div>
+      </MaxWidthWrapper>
+      <MaxWidthWrapper className="py-10">
+        <h1 className="font-bold text-6xl pb-6 text-primary">Game Heads</h1>
+        <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
+           <PlayerCard
+              alias="kaprixal"
+              name="Kirsten S."
+              role="Overwatch 2 Game Head"
+              twitter="kaprixal"
+            />
+            <PlayerCard
+              alias="nourmohy"
+              name="Nour E."
+              role="Valorant Game Head"
+              instagram="nour_elbardissi"
+              twitch="nourmohy"
+              twitter="nelbardissi"
+            />
+            <PlayerCard
+              alias="juicetin"
+              name="Justin K."
+              role="Counter-Strike 2 Game Head"
+            />
+            <PlayerCard
+              alias="honeymin"
+              name="Kae P."
+              role="League of Legends Game Head"
+              instagram="kaepurcea"
             />
           </div>
         </div>

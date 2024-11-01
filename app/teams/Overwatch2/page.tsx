@@ -131,11 +131,16 @@ export default function Overwatch2() {
             <PlayerCard
               alias="DjAshTray "
               name="Ashvin S."
-              role="Damage"
+              role="Damage (Sub)"
             />
             <PlayerCard
               alias="WarHaterSam "
               name="Sam J."
+              role="Support (Sub)"
+            />
+            <PlayerCard
+              alias="oorangepeel"
+              name="Rui Y."
               role="Support"
             />
           </div>

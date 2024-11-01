@@ -34,9 +34,12 @@ export default function Valorant() {
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
             <PlayerCard
-              alias="KEVN"
+              alias="sevn"
               name="Kevin K."
               role="Sentinel"
+              instagram="kevinn.kang"
+              twitter="kevyfps"
+              twitch="kevyfps"
             />
             <PlayerCard
               alias="Hypecks"
@@ -54,9 +57,12 @@ export default function Valorant() {
               role="Duelist"
             />
             <PlayerCard
-              alias="axel"
-              name="Alex A."
-              role="Duelist"
+              alias="axl"
+              name="Alexandre A."
+              role="Sentinel"
+              instagram="alex_290505"
+              twitter="axl_valorant"
+              twitch="axl_val"
             />
           </div>
         </div>
