@@ -33,7 +33,7 @@ export default function Teams() {
 
       {/* Team section */}
 
-      <section className="py-20 px-10">
+      <section>
         <MaxWidthWrapper>
           <h1 className="max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12">
             Meet the teams

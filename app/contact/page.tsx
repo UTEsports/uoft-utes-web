@@ -30,7 +30,7 @@ export default function Contact() {
       </div>
 
       {/* Contact section */}
-      <section className="py-10">
+      <section>
         <MaxWidthWrapper>
           <div>
             <h3 className="mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold">
@@ -50,7 +50,7 @@ export default function Contact() {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="py-10">
+      <section>
         <MaxWidthWrapper>
           <h3 className="mt-12 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold mb-12">
             Join our community

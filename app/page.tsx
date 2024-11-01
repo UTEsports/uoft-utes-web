@@ -33,12 +33,12 @@ export default function Home() {
         </div>
       </div>
 
-      <MaxWidthWrapper className="px-10">
+      <MaxWidthWrapper>
         {/* Hero section */}
-        <h3 className="mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold">
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
           Welcome to UofT Esports!
-        </h3>
-        <p className="text-xl py-5 max-sm:text-center">
+        </h1>
+        <p className="text-xl max-sm:text-base py-5 max-sm:text-center">
           UTES is a non-profit student group that is the hub for all Esports and
           gaming communities & activities at the University of Toronto. We aim
           to unite students by a common love of gaming through community events
@@ -63,11 +63,11 @@ export default function Home() {
 
       {/* Team section */}
 
-      <section className="py-15 mt-20 px-10">
+      <section>
         <MaxWidthWrapper>
-          <h3 className="max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12">
+          <h1 className="mb-5 mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
             Meet the teams
-          </h3>
+          </h1>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">
             <TeamCard img={Overwatch2} game="Overwatch 2" link="Overwatch2" />
             <TeamCard
@@ -86,11 +86,11 @@ export default function Home() {
       </section>
 
       {/* Contact section */}
-      <section className="py-36 px-10">
+      <section>
         <MaxWidthWrapper>
-          <h2 className="max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12">
+          <h1 className="mb-5 mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold">
             Join our community
-          </h2>
+          </h1>
           <div className="flex justify-center md:justify-between items-center flex-wrap gap-5 mr-3">
             <Link
               target="_blank"
