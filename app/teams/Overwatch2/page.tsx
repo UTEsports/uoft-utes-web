@@ -12,7 +12,7 @@ export default function Overwatch2() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
-        <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center">
+          <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center">
             OVERWATCH 2
           </h1>
         </div>
@@ -30,115 +30,88 @@ export default function Overwatch2() {
 
       {/* Varsity */}
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-6xl pb-6 text-primary">VARSITY</h1>
-        <div className="flex flex-row justify-between items-center">
-          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
-            <PlayerCard
-              alias="Phant0mz"
-              name="Lucas C."
-              role="Tank"
-              instagram="lucas.cheuk"
-              twitter="Phant0mzOW"
-            />
-            <PlayerCard
-              alias="Hypothesis"
-              name="Max G."
-              role="Flex (Tank, Support)"
-              twitch="hypothesis_ow"
-              instagram="maxgarciagomez"
-              twitter="HypothesisOW"
-
-            />
-            <PlayerCard
-              alias="Solace"
-              name="Mao M."
-              role="Damage"
-              twitch="sorryimsolace"
-              twitter="sorryimsolace"
-            />
-            <PlayerCard
-              alias="Eye"
-              name="Yangxiao J."
-              role="Damage"
-            />
-            <PlayerCard
-              alias="Defferatel"
-              name="David V."
-              role="Support"
-              twitch="defferatel"
-              instagram="realdefferatel"
-              twitter="defferatel2"
-            />
-            <PlayerCard
-              alias="JumboPlayer"
-              name="Marcus L."
-              role="Support"
-            />
-            <PlayerCard
-              alias="GoofyJoober"
-              name="Hani S."
-              role="Damage (Sub)"
-              twitch="goofyjoober"
-            /> 
-            <PlayerCard
-              alias="Soomshigi"
-              name="Hangyeol Y."
-              role="Tank (Sub)"
-            />
-            <PlayerCard
-              alias="Aspect"
-              name="Hunter S."
-              role="Tank (Sub)"
-              twitter="ow_aspect"
-              twitch="aspect_ow1"
-            />
-          </div>
+        <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">
+          VARSITY
+        </h1>
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-between items-stretch max-md:justify-center">
+          <PlayerCard
+            alias="Phant0mz"
+            name="Lucas C."
+            role="Tank"
+            instagram="lucas.cheuk"
+            twitter="Phant0mzOW"
+          />
+          <PlayerCard
+            alias="Hypothesis"
+            name="Max G."
+            role="Flex (Tank, Support)"
+            twitch="hypothesis_ow"
+            instagram="maxgarciagomez"
+            twitter="HypothesisOW"
+          />
+          <PlayerCard
+            alias="Solace"
+            name="Mao M."
+            role="Damage"
+            twitch="sorryimsolace"
+            twitter="sorryimsolace"
+          />
+          <PlayerCard alias="Eye" name="Yangxiao J." role="Damage" />
+          <PlayerCard
+            alias="Defferatel"
+            name="David V."
+            role="Support"
+            twitch="defferatel"
+            instagram="realdefferatel"
+            twitter="defferatel2"
+          />
+          <PlayerCard alias="JumboPlayer" name="Marcus L." role="Support" />
+          <PlayerCard
+            alias="GoofyJoober"
+            name="Hani S."
+            role="Damage (Sub)"
+            twitch="goofyjoober"
+          />
+          <PlayerCard alias="Soomshigi" name="Hangyeol Y." role="Tank (Sub)" />
+          <PlayerCard
+            alias="Aspect"
+            name="Hunter S."
+            role="Tank (Sub)"
+            twitter="ow_aspect"
+            twitch="aspect_ow1"
+          />
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-6xl pb-6 text-primary">ACADEMY</h1>
-        <div className="flex flex-row justify-between items-center">
-          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
-            <PlayerCard
-              alias="Chiori"
-              name="Ryan L."
-              role="Tank"
-            />
-            <PlayerCard
-              alias="computerow "
-              name="Chris N."
-              role="Support"
-              twitch="computerow"
-              instagram="chris.r.nash"
-              twitter="computerow"
-            />
-            <PlayerCard
-              alias="altair"
-              name="Vincent P."
-              role="Damage"
-              instagram="naei.vp"
-              twitch="altairvyz"
-              twitter="altair_vyz"
-            />
-            <PlayerCard
-              alias="atom"
-              name="Adam C."
-              role="Damage"
-              instagram="chalkatom"
-              twitch="chalkatom"
-              twitter="atttom"
-            />
-            <PlayerCard
-              alias="DjAshTray "
-              name="Ashvin S."
-              role="Damage"
-            />
-            <PlayerCard
-              alias="WarHaterSam "
-              name="Sam J."
-              role="Support"
-            />
-          </div>
+        <h1 className="font-bold text-6xl pb-6 text-primary max-md:text-center">ACADEMY</h1>
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-between items-stretch max-md:justify-center">
+          <PlayerCard alias="Chiori" name="Ryan L." role="Tank" />
+          <PlayerCard
+            alias="computerow "
+            name="Chris N."
+            role="Support"
+            twitch="computerow"
+            instagram="chris.r.nash"
+            twitter="computerow"
+          />
+          <PlayerCard
+            alias="altair"
+            name="Vincent P."
+            role="Damage"
+            instagram="naei.vp"
+            twitch="altairvyz"
+            twitter="altair_vyz"
+          />
+          <PlayerCard
+            alias="atom"
+            name="Adam C."
+            role="Damage"
+            instagram="chalkatom"
+            twitch="chalkatom"
+            twitter="atttom"
+          />
+          <PlayerCard alias="DjAshTray " name="Ashvin S." role="Damage" />
+          <PlayerCard alias="WarHaterSam " name="Sam J." role="Support" />
         </div>
       </MaxWidthWrapper>
     </main>
