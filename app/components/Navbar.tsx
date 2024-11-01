@@ -64,7 +64,7 @@ const Navbar = () => {
                         <Link href={"/contact"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             contact
                         </Link>
-                        <Link href={"/sponsors"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
+                        <Link href={"/sponsors"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             sponsors
                         </Link>
                     </div>
