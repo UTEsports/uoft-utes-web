@@ -30,7 +30,7 @@ export default function Overwatch2() {
 
       {/* Varsity */}
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-5xl pb-6 max-sm:text-4xl text-primary max-md:text-center">
+        <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           VARSITY
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
@@ -83,8 +83,7 @@ export default function Overwatch2() {
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper className="py-20">
-
-        <h1 className="font-bold text-5xl pb-6 max-sm:text-4xl text-primary max-md:text-center">
+        <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           ACADEMY
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
@@ -115,7 +114,6 @@ export default function Overwatch2() {
           />
           <PlayerCard alias="DjAshTray " name="Ashvin S." role="Damage" />
           <PlayerCard alias="WarHaterSam " name="Sam J." role="Support" />
-
         </div>
       </MaxWidthWrapper>
     </main>

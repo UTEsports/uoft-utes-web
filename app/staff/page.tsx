@@ -28,7 +28,7 @@ export default function Overwatch2() {
       </div>
 
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-5xl max-sm:text-4xl pb-6 text-primary max-md:text-center">
+        <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           Esports Executives
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
@@ -52,7 +52,7 @@ export default function Overwatch2() {
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper>
-        <h1 className="font-bold text-5xl max-sm:text-4xl pb-6 text-primary max-md:text-center">
+        <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           Media Team
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
@@ -83,7 +83,7 @@ export default function Overwatch2() {
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-5xl max-sm:text-4xl pb-6 text-primary max-md:text-center">
+        <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
           Game Heads
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
