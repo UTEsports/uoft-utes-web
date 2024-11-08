@@ -58,7 +58,7 @@ export default function Sponsors() {
                     </button></a>
                     </div>
                     
-                    <p className="pt-5"> BMONXTLVL streams every Thursdays @ 7pm at <a href="https://twitch.tv/bmo_nxtlvl" className="font-semibold text-cyan-200">twitch.tv/bmo_nxtlvl</a>. Each stream features gaming and financial literacy tips with BMO&apos;s Gaming Relations Specialist. Join <a href="https://discord.gg/bmonxtlvl" className="font-semibold text-cyan-200">discord.gg/bmonxtlvl</a> to get access to exclusive content.</p>
+                    <p className="pt-5"> BMO NXT LVL streams every Thursdays @ 7pm at <a href="https://twitch.tv/bmo_nxtlvl" className="font-semibold text-cyan-200">twitch.tv/bmo_nxtlvl</a>. Each stream features gaming and financial literacy tips with BMO&apos;s Gaming Relations Specialist. Plus, join <a href="https://discord.gg/bmonxtlvl" className="font-semibold text-cyan-200">discord.gg/bmonxtlvl</a> to get access to exclusive content.</p>
                 </BoxWrapper>
             </MaxWidthWrapper>
             
