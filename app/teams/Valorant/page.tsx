@@ -12,7 +12,7 @@ export default function Valorant() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center fill-zinc-100 z-10">
-          <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl">
+          <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center">
             VALORANT
           </h1>
         </div>
@@ -30,41 +30,15 @@ export default function Valorant() {
 
       {/* Varsity */}
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-6xl pb-6 text-primary">VARSITY</h1>
-        <div className="flex flex-row justify-between items-center">
-          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
-            <PlayerCard
-              alias="sevn"
-              name="Kevin K."
-              role="Sentinel"
-              instagram="kevinn.kang"
-              twitter="kevyfps"
-              twitch="kevyfps"
-            />
-            <PlayerCard
-              alias="Hypecks"
-              name="Merwin T."
-              role="Initiator"
-            />
-            <PlayerCard
-              alias="jacky"
-              name="Jacky C."
-              role="Controller"
-            />
-            <PlayerCard
-              alias="Yonn"
-              name="Jonathan C."
-              role="Duelist"
-            />
-            <PlayerCard
-              alias="axl"
-              name="Alexandre A."
-              role="Sentinel"
-              instagram="alex_290505"
-              twitter="axl_valorant"
-              twitch="axl_val"
-            />
-          </div>
+        <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
+          VARSITY
+        </h1>
+        <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
+          <PlayerCard alias="KEVN" name="Kevin K." role="Sentinel" />
+          <PlayerCard alias="Hypecks" name="Merwin T." role="Initiator" />
+          <PlayerCard alias="jacky" name="Jacky C." role="Controller" />
+          <PlayerCard alias="Yonn" name="Jonathan C." role="Duelist" />
+          <PlayerCard alias="axel" name="Alex A." role="Duelist" />
         </div>
       </MaxWidthWrapper>
     </main>

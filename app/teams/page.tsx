@@ -16,7 +16,7 @@ export default function Teams() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-9xl max-sm:text-6xl font-bold text-white drop-shadow-2xl max-md:text-8xl z-10">
+          <h1 className="text-9xl max-md:text-7xl max-sm:text-5xl font-bold text-white drop-shadow-2xl max-lg:text-8xl text-center">
             TEAMS
           </h1>
         </div>
@@ -33,9 +33,9 @@ export default function Teams() {
 
       {/* Team section */}
 
-      <section className="py-20">
-        <MaxWidthWrapper>
-          <h1 className="max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12">
+      <section>
+        <MaxWidthWrapper className="mb-20">
+          <h1 className="mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
             Meet the teams
           </h1>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">
