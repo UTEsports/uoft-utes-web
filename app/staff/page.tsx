@@ -84,33 +84,115 @@ export default function Overwatch2() {
       </MaxWidthWrapper>
       <MaxWidthWrapper className="py-20">
         <h1 className="mb-5 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl">
-          Game Heads
+          Broadcast Team
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
           <PlayerCard
-            alias="kaprixal"
-            name="Kirsten S."
-            role="Overwatch 2 Game Head"
-            twitter="kaprixal"
+            alias="pearyonline"
+            name="Elizabeth P."
+            role="Producer / Observer"
+            twitter="pearyonline"
+            instagram=""
+            twitch="pearyonline"
           />
+
           <PlayerCard
-            alias="nourmohy"
-            name="Nour E."
-            role="Valorant Game Head"
-            instagram="nour_elbardissi"
-            twitch="nourmohy"
-            twitter="nelbardissi"
+            alias="Spafflez"
+            name="Zack S."
+            role="Caster"
+            twitter="Spafflez"
+            instagram="Spafflez"
+            twitch="Spafflez"
           />
+
           <PlayerCard
-            alias="juicetin"
-            name="Justin K."
-            role="Counter-Strike 2 Game Head"
+            alias="Cerocune"
+            name="Bryan C."
+            role="Caster"
+            twitter=""
+            instagram=""
+            twitch="Cerocune"
           />
+
           <PlayerCard
-            alias="honeymin"
-            name="Kae P."
-            role="League of Legends Game Head"
-            instagram="kaepurcea"
+            alias="HailMonkeyman"
+            name="Richard W."
+            role="Caster"
+            twitter="hail_monkeyman"
+            instagram="hail_monkeyman"
+            twitch="hail_monkeyman"
+          />
+
+          <PlayerCard
+            alias="EsTiny"
+            name="Valentina V-M."
+            role="Observer"
+            twitter="estiny_"
+            instagram="val.vrvscs"
+            twitch=""
+          />
+
+          <PlayerCard
+            alias="Natural"
+            name="Igor T."
+            role="Caster"
+            twitter="NaturalCasts"
+            instagram="rogit31"
+            twitch="NaturalCasts"
+          />
+
+          <PlayerCard
+            alias="Scouter"
+            name="Timothy P."
+            role="Producer"
+            twitter=""
+            instagram=""
+            twitch=""
+          />
+
+          <PlayerCard
+            alias="Zedroid"
+            name="Daniel B."
+            role="Producer"
+            twitter=""
+            instagram="Zedroid_"
+            twitch="Zedroid_"
+          />
+
+          <PlayerCard
+            alias="swanner"
+            name="Jessica C."
+            role="Caster"
+            twitter=""
+            instagram="jess.chen04"
+            twitch=""
+          />
+
+          <PlayerCard
+            alias="concordski"
+            name="Franklin W."
+            role="Producer"
+            twitter="concordski_"
+            instagram="concordski1231"
+            twitch="concordski1231"
+          />
+
+          <PlayerCard
+            alias="Rasaska"
+            name="Charley Y."
+            role="Caster/Observer"
+            twitter="Rasaska_"
+            instagram="charley.yeet"
+            twitch="Rasaska"
+          />
+
+          <PlayerCard
+            alias="BearLight"
+            name="Chris L."
+            role="Caster"
+            twitter="bearlightcasts"
+            instagram="bearlightcasts"
+            twitch="bearlightcasts"
           />
         </div>
       </MaxWidthWrapper>

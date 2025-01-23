@@ -44,12 +44,12 @@ const Navbar = () => {
             >
               staff
             </Link>
-            <Link
+            {/* <Link
               href={"/teams"}
               className="duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500"
             >
               teams
-            </Link>
+            </Link> */}
             <Link
               href={"/contact"}
               className="duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500"
@@ -101,12 +101,12 @@ const Navbar = () => {
             >
               staff
             </Link>
-            <Link
+            {/* <Link
               href={"/teams"}
               className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500"
             >
               teams
-            </Link>
+            </Link> */}
             <Link
               href={"/contact"}
               className="border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500"
