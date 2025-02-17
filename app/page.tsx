@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       </MaxWidthWrapper>
 
-      {/* Team section */}
+      {/* Team section
 
       <section>
         <MaxWidthWrapper>
@@ -83,7 +83,7 @@ export default function Home() {
             <TeamCard img={Valorant} game="Valorant" link="Valorant" />
           </div>
         </MaxWidthWrapper>
-      </section>
+      </section> */}
 
       {/* Contact section */}
       <section className="mb-20">
