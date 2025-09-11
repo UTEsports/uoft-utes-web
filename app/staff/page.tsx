@@ -33,22 +33,18 @@ export default function Overwatch2() {
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
           <PlayerCard alias="kaprixal" name="Kirsten S." role="President" />
-          <PlayerCard
-            alias="JaidynPurple"
-            name="Jaidyn Y."
-            role="External Affairs"
-          />
+          <PlayerCard alias="Chiori" name="Ryan L." role="External Affairs" />
           <PlayerCard
             alias="ghoulies"
             name="Emily H."
             role="Marketing Operations"
           />
           <PlayerCard
-            alias="zlion"
-            name="Zilin C."
+            alias="__Windcatchr__"
+            name="Kaiy C."
             role="Broadcast Operations"
           />
-          <PlayerCard alias="fairyy" name="Ariana D." role="Treasurer" />
+          <PlayerCard alias="skyy" name="Jia Ying L." role="Treasurer" />
         </div>
       </MaxWidthWrapper>
       <MaxWidthWrapper>

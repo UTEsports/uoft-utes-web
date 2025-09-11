@@ -35,11 +35,11 @@ export default function About() {
         <p className="text-xl max-sm:text-base py-5 max-sm:text-center">
           We strive to grow the esports scene at the University of Toronto and
           the gaming community across the city overall. We currently have
-          divisions supporting League of Legends, Counter-Strike 2, Overwatch 2,
-          and VALORANT. We compete at the highest level for each of these games,
-          and also host some of the largest gaming communities in Ontario. Our
-          events include LAN tournaments, socials, professional gamer meetups,
-          and charity fundraisers.
+          divisions supporting League of Legends, Overwatch 2, and Marvel
+          Rivals, Apex Legends, and more. We compete at the highest level for
+          each of these games, and also host some of the largest gaming
+          communities in Ontario. Our events include LAN tournaments, socials,
+          professional gamer meetups, and charity fundraisers.
         </p>
         <div className="gap-x-3 flex flex-row max-sm:justify-center text-center max-lg:flex-col max-lg:gap-3">
           <a
@@ -89,6 +89,27 @@ export default function About() {
           Varsity teams that represent the school competing year-long in various
           tournaments, as well as Academy teams for aspiring competitive
           players.
+        </p>
+      </MaxWidthWrapper>
+      <MaxWidthWrapper className="mb-20">
+        <h1 className="mt-20 max-sm:text-3xl max-sm:text-center text-primary text-6xl font-bold max-md:text-5xl mb-5">
+          Affiliations
+        </h1>
+
+        <h1 className="text-2xl font-medium text-secondary">Skule</h1>
+        <p className="text-xl max-sm:text-base mb-7 mt-2">
+          Here are the Official Bylaws of the University of Toronto Engineering
+          Society. The policy on complaints can be found here.
+        </p>
+        <a
+          className="flex justify-center items-center text-center text-white bg-cyan-500 rounded-full px-12 py-3 max-sm:text-xl text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-85 hover:bg-cyan-600"
+          href="https://github.com/skule/bylaws/blob/master/policies/Policy-on-Complaints.pdf"
+        >
+          University of Toronto Engineering Society Bylaws
+        </a>
+        <p className="text-xl max-sm:text-base mb-7 mt-2">
+          If you are a U of T Engineering student, you may email
+          ombudsperson@g.skule.ca if you have any complaints.
         </p>
       </MaxWidthWrapper>
     </main>
