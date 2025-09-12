@@ -40,7 +40,7 @@ export default function Overwatch2() {
             role="Marketing Operations"
           />
           <PlayerCard
-            alias="__Windcatchr__"
+            alias="Windcatchr"
             name="Kaiy C."
             role="Broadcast Operations"
           />
