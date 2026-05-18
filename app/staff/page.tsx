@@ -32,16 +32,17 @@ export default function Overwatch2() {
           Esports Executives
         </h1>
         <div className="flex flex-wrap gap-x-7 gap-y-5 justify-normal items-stretch max-md:justify-center">
-          <PlayerCard alias="kaprixal" name="Kirsten S." role="President" />
-          <PlayerCard alias="Chiori" name="Ryan L." role="External Affairs" />
+          <PlayerCard alias="kaprixal" name="Kirsten S." role="Co-President" />
           <PlayerCard
-            alias="ghoulies"
-            name="Emily H."
-            role="Marketing Operations"
+            alias="evie"
+            name="Shannon C."
+            role="Co-President"
           />
+          <PlayerCard alias="Jonny" name="Jonny F." role="External Affairs" />
+          
           <PlayerCard
-            alias="Windcatchr"
-            name="Kaiy C."
+            alias="FreshBossGamer2004"
+            name="Ethan F."
             role="Broadcast Operations"
           />
           <PlayerCard alias="skyy" name="Jia Ying L." role="Treasurer" />
