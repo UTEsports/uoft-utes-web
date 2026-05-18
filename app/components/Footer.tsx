@@ -49,7 +49,7 @@ const Footer = () => {
             />
           </Link>
         </div>
-        <h1 className="text-xl">@2024 University of Toronto</h1>
+        <h1 className="text-xl">@2026 University of Toronto</h1>
       </div>
     </footer>
   );
